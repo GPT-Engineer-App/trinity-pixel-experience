@@ -6,14 +6,14 @@ const Index = () => {
     <Container maxW="container.xl" p={0}>
       {/* Hero Section */}
       <Box bg="gray.100" p={10} textAlign="center">
-        <Heading as="h1" size="2xl" mb={4}>
-          Welcome to Trinity Pixels
+        <Heading as="h1" size="4xl" mb={4} fontFamily="Comic Sans MS, Comic Sans, cursive">
+          Welcome to Trinity Pixels!
         </Heading>
-        <Text fontSize="xl" mb={6}>
+        <Text fontSize="2xl" mb={6} fontFamily="Comic Sans MS, Comic Sans, cursive">
           Explore the Art of Creativity
         </Text>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={5}>
-          <Image src="https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwYXJ0fGVufDB8fHx8MTcxNTQ4MjcwM3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Digital Art" />
+          <Image src="https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwYXJ0fGVufDB8fHx8MTcxNTQ4MjcwM3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Digital Art" _hover={{ transform: "scale(1.05)", transition: "transform 0.2s" }} />
           <Image src="https://images.unsplash.com/photo-1592496431122-2349e0fbc666?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzE1NDgyNzAzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Book Cover" />
           <Image src="https://images.unsplash.com/photo-1621379282411-62964e75a502?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxsYXRlc3QlMjBhcnR3b3JrfGVufDB8fHx8MTcxNTQ4MjcwM3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Latest Artwork" />
         </SimpleGrid>
